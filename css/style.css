@@ -587,6 +587,18 @@ img {
 	position: relative;
 	width: 100%;
 	height: 60px;
+	background-color: #fff;
+}
+.rel_site::before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 1px;
+	background-color: #e1e1e1;
 }
 .rel_site::after {
 	content: "";
